@@ -1,0 +1,169 @@
+.container{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    position:-webkit-sticky;
+}
+.partitems{
+    background-color: aquamarine;
+    width: 100%; 
+    margin-top: 20px;
+  position: sticky;
+    padding-top:25px ;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    border: 2px solid gray;
+}
+.part1{
+  display: flex;
+  width: 100%;
+  /* height: 210px; */
+  /* border: 2px solid black; */
+   
+}
+.image{
+    width: 20%;
+}
+.part1image{
+   display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.partinput{
+    position: relative;
+    width: 78%;
+}
+ input{
+    padding: 12px;
+   width: 100%;
+   border-radius: 20px;
+   background-color:darkgray;
+   text-align: center;
+   margin-top: 30px;
+   outline: none;
+   border: none;
+}
+.part1image img{
+width: 100%;
+border-radius: 50%;
+height: 100%;
+object-fit: cover;
+}
+.p1p2{
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.part2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+   align-items: center;
+   margin-top: 10px;
+   /* border: 2px solid black; */
+   
+}
+.iconsp{
+    font-size:30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.items{
+    display: flex;
+    position: relative;
+}
+.photoicon{
+    color: green;
+    margin: 10px;
+}
+.videoicon{
+   color: red;
+   margin: 10px;
+}
+.smileicon{
+    color: white;
+    margin: 10px;
+    border: 3px solid  gold;
+    border-radius: 50%;
+}
+.part3{
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 100%;
+    position: sticky;
+    display: flex;
+  
+}
+.second{
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(141, 214, 214);
+}
+.part31{
+    width: 70%;
+   
+}
+.part311{
+    width: 30%;
+   position: relative;
+ }
+ .part311 button{
+     width: 80%;
+     outline: none;
+     border: none;
+     font-size: large;
+     background-color: Transparent;
+ }
+
+.item1{
+    display: flex;
+    font-size: large;
+}
+.item1 p{
+    width: 100%;
+    margin-top: 9px;
+    margin-left: 10px;
+    
+    position: relative;
+}
+.videoicon1{
+    color: blueviolet;
+    margin-left: 60px;
+    margin-top: 7px;
+    font-size: 30px
+ }
+ .part32{
+     width: 100%;
+     display: flex;
+     margin-top: 10px;
+     position: sticky;
+     justify-content: space-around;
+ }
+ .plusicon{
+     font-size: 20px;
+     margin-top: 8px;
+     border-radius: 50%;
+     background-color:antiquewhite;
+     width: 65px;
+     height:65px;
+     padding: 15px;
+     color: black;
+ }
+ 
+ .fimages{
+     
+     position: relative;
+     width: 70px;
+     height: 70px;
+ }
+ .fimages img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+ }

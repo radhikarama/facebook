@@ -1,0 +1,14 @@
+.Mpart{
+    display: flex;
+    margin-top:70px ;
+}
+.middle{
+    width: 50%;
+    margin-left:25%;
+    /* overflow: hidden; */
+    /* position: fixed; */
+    /* margin-right: 25%; */
+    top: 75px;
+    position: -webkit-sticky;
+    padding-top:10px;
+}

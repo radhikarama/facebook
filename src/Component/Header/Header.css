@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+   background-color: azure;
+    display: flex;
+align-items: center;
+position: fixed;
+width: 100%;
+height: 60px;
+margin-top: 3px;
+padding: 0 30px;
+top: 0;
+z-index: 100;
+}
+/* leftheader-part */
+.leftheader{
+    width: 25%;
+align-items: center;
+display: flex;
+}
+.leftlogo{
+    width:20%;
+}
+.flogo{
+    color: #4267B2;
+  font-size: 40px;
+  
+}
+.leftsearch{
+width: 80%;
+align-items: center;
+position: relative;
+
+}
+.hsicon{
+    position: absolute;
+   left:12px ;
+    top: 13px;
+}
+.sbar{
+    width: 100%;
+    border-radius: 20px;
+    border:none;
+    outline: none;
+    text-align: center;
+    padding: 10px 20px;
+   margin-top: 3px;
+    background-color: #d0dbd3;
+}
+/* end leftheader-part */
+/* middleheader-part */
+.middleheader{
+    width: 50%;
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.notifyicon{
+    position: relative;
+    display: inline-block;
+}
+.notify{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    left: 10px;
+    background-color: red;
+}
+.hicon{
+   color: #606770;
+    font-size:25px;
+}
+
+/* end middleheader-part */
+.rightheader{
+   width: 25%;
+  display: flex;
+  justify-content:center;
+}
+.lasticons{
+    display:flex ;
+    border-radius: 50%;
+    /* background-color: rgb(55, 0, 255); */
+    background-color: #f0f2f5;
+    margin-left: 50px;
+    font-size: 25px;
+    padding: 10px;
+    color: black;
+}

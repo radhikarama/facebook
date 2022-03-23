@@ -1,0 +1,36 @@
+.news{
+    position: -webkit-sticky;
+    height: 250px;
+    width: 100%;
+    /* display: flex; */
+    margin-top: 10px;
+}
+.newsitems{
+    border: 1px solid rgb(54, 50, 50);
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* .videoplayer{
+  
+   justify-content: center;
+} */
+.newsh{
+    display: flex;
+    
+}
+.news-image{
+    width: 80px;
+    height:80px;
+}
+.news-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.newstext{
+    font-size: large;
+    margin: 30px;
+    
+}

@@ -1,0 +1,29 @@
+
+.rightpart{
+    width: 25%;
+    position:fixed;
+    /* overflow-y: scroll; */
+    top:70px;
+    right: 0;
+    }
+    .right1{
+        display: flex;
+        align-items: center;
+        padding: 10px 30px;
+    }
+    
+    .rightimage{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius:50%;
+    }
+    .rightimage img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .rightname{
+    margin-left:10px;
+    font-size: 15px;
+    }
